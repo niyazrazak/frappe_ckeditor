@@ -13,6 +13,10 @@ app_license = "MIT"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/frappe_ckeditor/css/frappe_ckeditor.css"
 # app_include_js = "/assets/frappe_ckeditor/js/frappe_ckeditor.js"
+app_include_js = [
+    "https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.22.1/ckeditor.js",
+    "/assets/frappe_ckeditor/js/ckeditor.js"
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/frappe_ckeditor/css/frappe_ckeditor.css"
@@ -29,7 +33,7 @@ app_license = "MIT"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Quotation" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
